@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+        'vision_tracker = drone_vision.vision_tracker_node:main',
         ],
     },
 )
